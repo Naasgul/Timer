@@ -1,4 +1,5 @@
-import { App } from "./App";
+import { createApp } from "./App";
 
-const app = App();
+const app = createApp();
+
 document.body.append(app);
